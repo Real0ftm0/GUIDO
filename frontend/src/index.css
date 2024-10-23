@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "B-Nazanin";
+  src: local("B-Nazanin"), url(./fonts/IRANSansWeb.ttf) format("truetype");
+}
+
+* {
+  font-family: "B-Nazanin";
+  box-sizing: border-box !important;
+}
+
+/* Your existing CSS styles */
+main {
+  min-height: 80vh;
+}
+
+header {
+  direction: rtl;
+}
+
+.navbar {
+  height: 98vh;
+}
+.text-wrapper {
+  width: 50%;
+}
+.header__text {
+  color: white;
+  text-align: center;
+  line-height: 3;
+  font-weight: 2500;
+  font-size: 22px;
+}
+.header_pic {
+  width: 4rem;
+}
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+/* Your existing CSS styles */
+/* ... */
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+  padding-top: 1rem; /* Increase padding-top to move down carousel items */
+  margin-right: 20px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  padding-top: 2rem; /* Adjust padding-top to move down the caption */
+}
+
+.carousel-caption h4 {
+  color: #fff;
+}
+
+.carousel img {
+  display: flex;
+  height: 300px;
+  padding: 30px;
+  margin: 60px auto; /* Increase margin to move the image down */
+  border-radius: 50%;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+/* ... */
+
+/* New styles for the header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Set your desired height here */
+  background-color: #ffffff;
+  z-index: 999;
+  /* Any other necessary styles for your header */
+  /* For example: padding, border, and more */
+}
+
+/* Header.css */
+.custom-navbar {
+  background-color: #26386a !important;
+  border: gray !important; /* Setting the background color to #26386a */
+}
+
+.header__btn:hover {
+  background-color: #26386a !important;
+}
+
+.rightToLeft {
+  direction: rtl;
+}
